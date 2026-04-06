@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_ic_check_white.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/ic_check_white.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/layout_activity_main.xml.flat",
+        "source": "com.example.automarket.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_dark_rounded.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_dark_rounded.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_search_bar.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_search_bar.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_light_button.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_light_button.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_shipping_option.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_shipping_option.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/layout_fragment_shop.xml.flat",
+        "source": "com.example.automarket.app-main-33:/layout/fragment_shop.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_card_rounded.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_card_rounded.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_dark_button.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_dark_button.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_car_porsche.jpg.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_car_porsche.jpg"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_car_ferrari.jpg.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_car_ferrari.jpg"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_car_mercedes.jpg.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_car_mercedes.jpg"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_circle_blue.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_circle_blue.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_car_bmw.jpg.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_car_bmw.jpg"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_blue_badge.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_blue_badge.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/layout_fragment_payment.xml.flat",
+        "source": "com.example.automarket.app-main-33:/layout/fragment_payment.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/drawable_bg_circle_image.xml.flat",
+        "source": "com.example.automarket.app-main-33:/drawable/bg_circle_image.xml"
+    },
+    {
+        "merged": "com.example.automarket.app-merged_res-31:/layout_fragment_completion.xml.flat",
+        "source": "com.example.automarket.app-main-33:/layout/fragment_completion.xml"
+    }
+]
