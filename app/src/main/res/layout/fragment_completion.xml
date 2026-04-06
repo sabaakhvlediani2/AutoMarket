@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGray"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Blue circle with white checkmark -->
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/bg_circle_blue"
+        android:clipToOutline="true"
+        android:padding="16dp"
+        android:src="@drawable/ic_check_white"
+        android:contentDescription="Success checkmark" />
+
+    <!-- "Done!" text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Done!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/textPrimary" />
+
+    <!-- Success description -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="You card has been successfully charged"
+        android:textSize="14sp"
+        android:textColor="@color/textSecondary"
+        android:gravity="center" />
+
+    <!-- Go To First Page button -->
+    <Button
+        android:id="@+id/btnGoToFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_light_button"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:text="Go To First Page"
+        android:textAllCaps="false"
+        android:textColor="@color/textPrimary"
+        android:textSize="14sp" />
+
+</LinearLayout>
