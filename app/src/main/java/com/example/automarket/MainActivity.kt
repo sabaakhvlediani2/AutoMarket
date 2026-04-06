@@ -3,9 +3,7 @@ package com.example.automarket
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-/**
- * Main entry point — hosts fragment container and loads ShopFragment on first launch...
- */
+
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {

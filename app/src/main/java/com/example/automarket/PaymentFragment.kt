@@ -14,7 +14,6 @@ import java.util.Locale
 
 /**
  * Screen 2 — Payment screen showing item details, discount, shipping options, and total.
- * Receives car data via Bundle arguments from ShopFragment.
  */
 class PaymentFragment : Fragment() {
 
