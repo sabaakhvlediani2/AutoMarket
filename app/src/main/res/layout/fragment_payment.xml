@@ -163,8 +163,8 @@
             android:textStyle="bold"
             android:textColor="@color/textPrimary" />
 
-        <!-- RadioGroup for shipping options -->
-        <RadioGroup
+        <!-- Shipping options container (manual toggle — RadioGroup can't manage nested RadioButtons) -->
+        <LinearLayout
             android:id="@+id/radioGroupShipping"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -241,7 +241,7 @@
 
             </LinearLayout>
 
-        </RadioGroup>
+        </LinearLayout>
 
         <!-- Delivery date text -->
         <TextView

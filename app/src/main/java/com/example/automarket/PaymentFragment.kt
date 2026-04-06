@@ -6,7 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
-import android.widget.RadioGroup
+import android.widget.RadioButton
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import java.text.NumberFormat
@@ -33,7 +33,8 @@ class PaymentFragment : Fragment() {
     private var totalPrice: Double = 0.0
 
     private lateinit var tvTotalAmount: TextView
-    private lateinit var radioGroupShipping: RadioGroup
+    private lateinit var radioStandard: RadioButton
+    private lateinit var radioExpress: RadioButton
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -62,7 +63,8 @@ class PaymentFragment : Fragment() {
         val tvItemPrice = view.findViewById<TextView>(R.id.tvItemPrice)
         val ivCarImage = view.findViewById<ImageView>(R.id.ivCarImage)
         tvTotalAmount = view.findViewById(R.id.tvTotalAmount)
-        radioGroupShipping = view.findViewById(R.id.radioGroupShipping)
+        radioStandard = view.findViewById(R.id.radioStandard)
+        radioExpress = view.findViewById(R.id.radioExpress)
         val btnPay = view.findViewById<Button>(R.id.btnPay)
 
         // Populate item details — price shown is the DISCOUNTED price
@@ -74,9 +76,18 @@ class PaymentFragment : Fragment() {
         shippingCost = 0.0
         calculateTotal()
 
-        // Recalculate total when shipping option changes
-        radioGroupShipping.setOnCheckedChangeListener { _, checkedId ->
-            shippingCost = if (checkedId == R.id.radioExpress) EXPRESS_FEE else 0.0
+        // Manual radio toggle since RadioButtons are nested inside LinearLayouts
+        radioStandard.setOnClickListener {
+            radioStandard.isChecked = true
+            radioExpress.isChecked = false
+            shippingCost = 0.0
+            calculateTotal()
+        }
+
+        radioExpress.setOnClickListener {
+            radioExpress.isChecked = true
+            radioStandard.isChecked = false
+            shippingCost = EXPRESS_FEE
             calculateTotal()
         }
 
